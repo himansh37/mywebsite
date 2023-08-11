@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#top, #profile , #skills{
+    overflow: hidden;
+
+}
+#top{
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    color: rgb(0, 0, 0) !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top{
+    /* background-color: #9DF1DF; */
+    background-color: white;
+    height: 60vh;
+    width: 100vw;
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: 10% 20% 40% 20% 10%;
+    grid-template-rows:25% 25% 30% 20%;
+    width: 70%;
+}
+.a1{
+    grid-area: 2/3/4/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.a1 h1{
+    margin: 20px;
+}
+.a2{
+    grid-area: 3/2/4/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.a3{
+    grid-area: 2/4/3/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3.dev{
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+/* profile section  */
+
+#profile{
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    color: rgb(0, 0, 0) !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile{
+    /* background-color: #8DCBE6; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 70%;
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.profile h2,p,img{
+    margin: 15px;
+}
+
+/* skill section  */
+#skills{
+    /* background-color: #9DF1DF; */
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    color: black !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills{
+    color: black !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 10px 10px 10px #bbb; */
+    padding-bottom:30px ;
+    border-radius: 5px;
+    width: 70%;
+}
+.myskill img{
+    width: 100px;
+    height: 100px;
+}
+.myskill  p,h3{ 
+    width: 80%;
+    overflow: hidden;
+    margin: 10px;
+    line-height: 27px;
+}
+.myskill .cooking{
+    float: right;
+}
+.myskill .coding{
+    float: left;
+}
+.skills h1{
+    margin: 20px;
+}
+/* contact section  */
+#contact{
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    color: rgb(0, 0, 0) !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    /* background-color: #8DCBE6; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+}
+
+button{
+    color: #0062FF;
+    border: #0062FF solid 1px;
+    background: #00eeffc9;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all ease 1s;
+    box-shadow: 3px 3px 0px #bbb;
+    }
+ button:hover{
+    transform: scale(1.2);
+    box-shadow: 7px 7px 0px #bbb;
+    }
+
+
+    /* footer section  */
+    #footer{
+        padding: 10px;
+        background-color: #eee;
+        display: flex;
+        color: rgb(0, 0, 0) !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+.footer{
+    padding: 15px;
+    /* background-color: #9DF1DF; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    border-radius: 5px;
+}
+.social{
+    
+    text-decoration: none;
+}
+
+
+
+/* copyright section  */
+#copyright{
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    color: rgb(0, 0, 0) !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.copyright{
+    /* background-color: #9DF1DF; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 70%;
+}
